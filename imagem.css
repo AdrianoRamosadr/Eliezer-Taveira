@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/*Elementos semânticos*/
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    padding: 1px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+footer a{
+    color: white;
+}
+
+input{
+    margin-left: 2px;
+    
+}
+
+.menu{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: white; 
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .card{
+    cursor: pointer;
+    padding: 2% 1% 2% 1%;
+    background-color: #ccc;
+    width: 250px;
+    border-radius: 5px;
+    margin: 40px 20px 40px 35px;
+}
+
+section .card:hover{
+     transform: scale(1.1);
+}
+
+a:hover{
+    background-color:rgb(110, 106, 106);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.card h4{
+    font-size: 18pt;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+
+
+
